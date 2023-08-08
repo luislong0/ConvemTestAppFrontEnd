@@ -40,4 +40,4 @@ Aqui estão alguns dos módulos utilizados neste projeto e uma breve descrição
 
 ## Atenção
 
-Este projeto deve ser executado em conjunto com o backend em Node.js, que pode ser encontrado no [link](link). Certifique-se de que o backend esteja rodando na porta 3333.
+Este projeto deve ser executado em conjunto com o backend em Node.js, que pode ser encontrado no [link](https://github.com/luislong0/ConvemTestAppBackEnd). Certifique-se de que o backend esteja rodando na porta 3333.
