@@ -1,27 +1,43 @@
 # ConvemTestApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 16.1.8.
 
-## Development server
+## Servidor de Desenvolvimento
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Execute `ng serve` para um servidor de desenvolvimento. Navegue até `http://localhost:4200/`. A aplicação será recarregada automaticamente se você alterar qualquer um dos arquivos de origem.
 
-## Code scaffolding
+## Estrutura de Código
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Execute `ng generate component nome-do-componente` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Construção
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`.
 
-## Running unit tests
+## Executando testes unitários
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Execute `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Cores
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+As seguintes cores foram definidas para o projeto:
 
-## Further help
+- zinc-950: #09090b
+- zinc-900: #18181b
+- zinc-800: #27272a
+- red-500: #ef4444
+- green-500: #22c55e
+- violet-500: #8b5cf6
+- violet-600: #7c3aed
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Módulos Importados
+
+Aqui estão alguns dos módulos utilizados neste projeto e uma breve descrição sobre cada um:
+
+- **BrowserModule**: É o módulo que permite a execução da aplicação em um navegador.
+- **HttpClientModule**: Utilizado para realizar requisições HTTP e interagir com servidores remotos via API.
+- **FormsModule**: Este módulo é usado para desenvolver formulários, capturar e validar as informações do usuário.
+
+## Atenção
+
+Este projeto deve ser executado em conjunto com o backend em Node.js, que pode ser encontrado no [link](link). Certifique-se de que o backend esteja rodando na porta 3333.

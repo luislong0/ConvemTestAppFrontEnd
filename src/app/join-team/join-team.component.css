@@ -1,0 +1,55 @@
+h1 {
+  font-family: "Arial", sans-serif;
+  color: #f4f4f5;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px 0;
+  width: 95%;
+  border: 1px solid #09090b;
+  border-radius: 5px;
+  background-color: #27272a;
+  color: #f4f4f5;
+}
+
+input:focus {
+  outline: 2px solid #8b5cf6;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-size: 16px;
+  background-color: #8b5cf6;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #7c3aed;
+}
+
+p {
+  font-family: "Arial", sans-serif;
+  color: #333;
+}
+
+.terminal {
+  max-width: 350px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #18181b;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.message {
+  font-weight: bold;
+}

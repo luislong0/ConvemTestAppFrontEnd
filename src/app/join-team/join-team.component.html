@@ -1,0 +1,8 @@
+<!-- Componente Box com Input -->
+
+<div class="terminal">
+  <h1>Você quer se juntar ao time da Convem?</h1>
+  <input type="text" [(ngModel)]="response" placeholder="Digite SIM ou NÃO" />
+  <button (click)="onConfirm()">Confirmar</button>
+  <p [style.color]="message === 'Erro' ? '#ef4444' : '#22c55e'" class="message">{{ message }}</p>
+</div>
