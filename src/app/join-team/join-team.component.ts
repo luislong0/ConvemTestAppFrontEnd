@@ -32,7 +32,9 @@ export class JoinTeamComponent {
 
     // Chamada API
     this.http
-      .post('http://localhost:3333/confirm', { response: normalizedResponse })
+      .post('https://convem-test-backend.onrender.com/confirm', {
+        response: normalizedResponse,
+      })
       .subscribe(
         (data: any) => {
           console.log(data.message);
