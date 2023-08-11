@@ -14,7 +14,9 @@ export class JoinTeamComponent {
 
   constructor(private http: HttpClient) {}
 
-  onConfirm() {
+  async onConfirm() {
+    console.log('Request before normalization: ' + this.response)
+
     // Converter a resposta para maiúsculas
     let normalizedResponse = this.response.toUpperCase();
 
@@ -30,14 +32,17 @@ export class JoinTeamComponent {
       normalizedResponse = 'NAO';
     }
 
+    console.log('Request after normalization: ' + normalizedResponse);
+
     // Chamada API
-    this.http
-      .post('https://convem-test-backend.onrender.com/confirm', {
+    await this.http
+      .post('http://localhost:3333/confirm', {
         response: normalizedResponse,
       })
       .subscribe(
         (data: any) => {
-          console.log(data.message);
+          console.log('Request: ' + normalizedResponse);
+          console.log('Response: ' + data.message);
           this.message = data.message;
         },
         (error) => {
